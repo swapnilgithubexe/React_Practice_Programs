@@ -1,0 +1,58 @@
+body {
+  background: wheat;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.common-btn {
+  background-color: skyblue;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+input {
+  background-color: rgba(6, 6, 14, 0.541);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+  font-size: 1.2rem;
+  color: aliceblue;
+  outline: none;
+}
+label {
+  color: black;
+  font-size: 1.2rem;
+}
+
+.suggestions {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  max-height: 200px;
+  overflow-y: auto;
+  border: 1px solid #ccc;
+  width: 200px;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+
+  li {
+    padding: 8px;
+    cursor: pointer;
+    background-color: #fff;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+  }
+
+  li:hover {
+    background-color: #f0f0f0;
+  }
+}
