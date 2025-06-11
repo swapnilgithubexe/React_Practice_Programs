@@ -10,6 +10,7 @@ import axios from "axios";
 
 //login thunk
 export const loginUser = createAsyncThunk("user/login", async ({ email, password }, thunkAPI) => {
+  //3 arguments for CAT (action type, async (), thunkAPI)
   try {
 
     const res = await axios.post("sampleURL", { email, password });
